@@ -1,6 +1,6 @@
 displayName = CSE Nameless After Mutant
 author = MajOfMyth
 version = 0.1
-modReferences = CommunitySoulsExpansion, FargowiltasSouls, NoxusBoss
-sortAfter = CommunitySoulsExpansion
+modReferences = ssm, FargowiltasSouls, NoxusBoss
+sortAfter = ssm
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, *.dll, *.sln

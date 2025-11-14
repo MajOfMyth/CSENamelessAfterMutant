@@ -1,4 +1,5 @@
 ﻿using Terraria.ModLoader;
+using ssm.Core;
 
 namespace CSENamelessAfterMutant
 {
@@ -8,7 +9,7 @@ namespace CSENamelessAfterMutant
         {
             public static void Update()
             {
-                ModDefinitions.Fargo.BossChecklistValues["MutantBoss"] = 27f;
+                ModCompatibility.SoulsMod.Mod.BossChecklistValues["MutantBoss"] = 27f;
                 return;
             }
         }
