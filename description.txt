@@ -1,1 +1,8 @@
+Community Souls Expansion places Mutant after Nameless Deity because the main developer likes Mutant.
+Nameless Deity is a much more cinematic, interesting, and fitting final boss than some guy's powerscaling OC.
+
+I respect CSE and its amazing development team, but this change and the refusal to even make it optional greatly upsets me.
+
 This mod overrides CSE's change to the boss order to put Nameless Deity back in it's rightful place as the final boss.
+
+Currently Mutant's Curse doesn't work until after ND, I tried to fix :(
