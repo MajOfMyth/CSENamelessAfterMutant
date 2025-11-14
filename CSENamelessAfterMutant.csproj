@@ -11,6 +11,12 @@
 	  <Reference Include="FargowiltasSouls">
 	    <HintPath>..\..\ModReader\FargowiltasSouls\FargowiltasSouls.dll</HintPath>
 	  </Reference>
+	  <Reference Include="Luminance">
+	    <HintPath>..\..\ModReader\Luminance\Luminance.dll</HintPath>
+	  </Reference>
+	  <Reference Include="ssm">
+	    <HintPath>..\..\ModReader\ssm\ssm.dll</HintPath>
+	  </Reference>
 	</ItemGroup>
 
 	<!-- References -->

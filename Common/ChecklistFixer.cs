@@ -1,7 +1,7 @@
 ﻿using Terraria.ModLoader;
 using ssm.Core;
 
-namespace CSENamelessAfterMutant
+namespace CSENamelessAfterMutant.Common
 {
     public class ChecklistFixer : ModSystem
     {

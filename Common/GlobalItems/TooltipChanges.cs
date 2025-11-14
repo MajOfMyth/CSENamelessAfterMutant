@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace CSENamelessAfterMutant.Common.GlobalItems
 {
-    public class CheatSlipMutantCurseChanges : GlobalItem
+    public class TooltipChanges : GlobalItem
     {
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
@@ -19,16 +19,6 @@ namespace CSENamelessAfterMutant.Common.GlobalItems
             {
                 tooltips.RemoveAll(line => line.Name == "PostND");
             }
-        }
-
-
-        public override bool CanUseItem(Item item, Player player)
-        {
-            if (item.type == ModContent.ItemType<MutantsCurse>())
-            {
-                return true;
-            }
-            return base.CanUseItem(item, player);
         }
     }
 }
