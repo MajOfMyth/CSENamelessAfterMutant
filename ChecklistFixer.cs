@@ -8,13 +8,7 @@ namespace CSENamelessAfterMutant
         {
             public static void Update()
             {
-                if (!ModLoader.TryGetMod("BossChecklist", out Mod bossChecklistMod))
-                {
-                    return;
-                }
-
                 ModDefinitions.Fargo.BossChecklistValues["MutantBoss"] = 27f;
-
                 return;
             }
         }
