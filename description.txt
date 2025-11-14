@@ -1,0 +1,1 @@
+This mod overrides CSE's change to the boss order to put Nameless Deity back in it's rightful place as the final boss.
