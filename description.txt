@@ -6,3 +6,5 @@ I respect CSE and its amazing development team, but this change and the refusal 
 This mod overrides CSE's change to the boss order to put Nameless Deity back in it's rightful place as the final boss.
 
 Currently Mutant's Curse doesn't work until after ND, I tried to fix :(
+
+https://github.com/MajOfMyth/CSENamelessAfterMutant
