@@ -13,11 +13,11 @@ namespace CSENamelessAfterMutant.Common.GlobalItems
             if (item.type == ModContent.ItemType<CheatPermissionSlip>())
             {
                 //what?
-                tooltips.RemoveAll(line => line.Name == "PostMonstrosity");
+                tooltips.RemoveAll(line => line.Name == "PosttMonstrosity");
             }
             if (item.type == ModContent.ItemType<MutantsCurse>())
             {
-                tooltips.RemoveAll(line => line.Name == "PostND");
+                tooltips.RemoveAll(line => line.Name == "PosttND");
             }
         }
     }

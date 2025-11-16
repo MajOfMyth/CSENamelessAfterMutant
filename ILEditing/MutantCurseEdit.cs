@@ -11,7 +11,7 @@ namespace CSENamelessAfterMutant.ILEditing
     {
         private static Hook hook = null;
 
-        public override void Load()
+        public override void OnModLoad()
         {
             if (ModLoader.TryGetMod("ssm", out Mod CSE))
             {
@@ -24,7 +24,7 @@ namespace CSENamelessAfterMutant.ILEditing
             }
         }
 
-        public override void Unload()
+        public override void OnModUnload()
         {
             hook?.Dispose();
             hook = null;
