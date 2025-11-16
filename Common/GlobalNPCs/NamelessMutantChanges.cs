@@ -11,22 +11,6 @@ namespace CSENamelessAfterMutant.Common.GlobalNPCs
     {
         public override void SetDefaults(NPC npc)
         {
-            if (npc.type == ModContent.NPCType<NamelessDeityBoss>())
-            {
-
-                float multiplier = 0;
-
-                if (ModCompatibility.Thorium.Loaded) { multiplier += 3f; }
-                if (ModCompatibility.SacredTools.Loaded) { multiplier += 5f; }
-                if (ModCompatibility.Homeward.Loaded) { multiplier += 2f; }
-                if (ModCompatibility.Goozma.Loaded) { multiplier += 1f; }
-                if (ModCompatibility.Catalyst.Loaded) { multiplier += 1f; }
-                if (ModCompatibility.Infernum.Loaded) { multiplier += 1f; }
-
-                npc.lifeMax = (int)(25000000 + (1000000 * multiplier));
-                
-            }
-
             //make mutant a lil weaker for balance
             if (npc.type == ModContent.NPCType<MutantBoss>())
             {
