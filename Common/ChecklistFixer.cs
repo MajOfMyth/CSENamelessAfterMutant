@@ -1,5 +1,5 @@
 ﻿using Terraria.ModLoader;
-using ssm.Core;
+using CSEL.Core;
 
 namespace CSENamelessAfterMutant.Common
 {

@@ -14,6 +14,9 @@
 	  <Reference Include="Luminance">
 	    <HintPath>..\..\ModReader\Luminance\Luminance.dll</HintPath>
 	  </Reference>
+	  <Reference Include="NoxusBoss">
+	    <HintPath>..\..\ModReader\NoxusBoss\NoxusBoss.dll</HintPath>
+	  </Reference>
 	  <Reference Include="ssm">
 	    <HintPath>..\..\ModReader\ssm\ssm.dll</HintPath>
 	  </Reference>

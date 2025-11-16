@@ -1,6 +1,6 @@
 ﻿using Terraria;
 using Terraria.ModLoader;
-using ssm.Core;
+using CSEL.Core;
 using NoxusBoss.Content.NPCs.Bosses.NamelessDeity;
 using FargowiltasSouls.Content.Bosses.MutantBoss;
 using System;
@@ -40,9 +40,9 @@ namespace CSENamelessAfterMutant.Common.GlobalNPCs
 
             if (npc.type == ModContent.NPCType<NamelessDeityBoss>())
             {
-                //modifiers.FinalDamage *= 10;
+                modifiers.FinalDamage *= 10;
                 //this for now
-                modifiers.FinalDamage *= 0.3333f;
+                //modifiers.FinalDamage *= 0.3333f;
             }
 
             if (npc.type == ModContent.NPCType<MutantBoss>())

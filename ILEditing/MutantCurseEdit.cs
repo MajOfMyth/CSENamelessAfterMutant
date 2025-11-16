@@ -13,10 +13,10 @@ namespace CSENamelessAfterMutant.ILEditing
 
         public override void Load()
         {
-            if (ModLoader.TryGetMod("ssm", out Mod CSE))
+            if (ModLoader.TryGetMod("CSEL", out Mod CSE))
             {
 
-                Type t = CSE.Code.GetType("ssm.Calamity.CalDlcItems");
+                Type t = CSE.Code.GetType("CSEL.Calamity.CalDlcItems");
                 MethodInfo original = t.GetMethod("CanUseItem", BindingFlags.Public | BindingFlags.Instance);
 
                 hook = new Hook(original, detour);
