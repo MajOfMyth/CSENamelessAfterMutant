@@ -1,6 +1,6 @@
 ﻿using Terraria;
 using Terraria.ModLoader;
-using CSEL.Core;
+using ssm.Core;
 using NoxusBoss.Content.NPCs.Bosses.NamelessDeity;
 using FargowiltasSouls.Content.Bosses.MutantBoss;
 using System;
